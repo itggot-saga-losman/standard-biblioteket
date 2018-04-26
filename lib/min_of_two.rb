@@ -5,7 +5,7 @@
 #
 # Examples
 #
-#   between_strict(2, 3)
+#   between_strict(4, 3)
 #   # => 3
 #
 #   between_strict(6, 2)

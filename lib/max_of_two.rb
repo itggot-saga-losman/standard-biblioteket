@@ -18,5 +18,3 @@ def max_of_two(input1, input2)
     end
     return input1
 end
-
-puts max_of_two(3 , 2)
