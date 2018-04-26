@@ -5,10 +5,10 @@
 #
 # Examples
 #
-#   between_strict(2, 3)
+#   max_of_two(2, 3)
 #   # => 3
 #
-#   between_strict(6, 2)
+#   max_of_two(6, 2)
 #   # => 2
 #
 # Returns biggest input.

@@ -7,10 +7,10 @@
 #
 # Examples
 #
-#   between_strict(2, 3, 5, 4)
+#   max_of_four(2, 3, 5, 4)
 #   # => 5
 #
-#   between_strict(6, 2, 10, 9)
+#   max_of_four(6, 2, 10, 9)
 #   # => 10
 #
 # Returns biggest input.

@@ -7,10 +7,10 @@
 #
 # Examples
 #
-#   between_strict(32, 3, 5, 12)
+#   min_of_four(32, 3, 5, 12)
 #   # => 3
 #
-#   between_strict(6, 2, 10, 12)
+#   min_of_four(6, 2, 10, 12)
 #   # => 2
 #
 # Returns smallest input.

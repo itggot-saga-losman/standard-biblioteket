@@ -6,10 +6,10 @@
 #
 # Examples
 #
-#   between_strict(32, 3, 5)
+#   min_of_three(32, 3, 5)
 #   # => 3
 #
-#   between_strict(6, 2, 10)
+#   min_of_three(6, 2, 10)
 #   # => 2
 #
 # Returns smallest input.

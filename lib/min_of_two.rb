@@ -5,10 +5,10 @@
 #
 # Examples
 #
-#   between_strict(4, 3)
+#   min_of_two(4, 3)
 #   # => 3
 #
-#   between_strict(6, 2)
+#   min_of_two(6, 2)
 #   # => 2
 #
 # Returns smallest input.
