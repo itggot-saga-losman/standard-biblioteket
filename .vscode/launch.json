@@ -9,7 +9,7 @@
             "type": "Ruby",
             "request": "launch",
             "cwd": "${workspaceRoot}",
-            "program": "${workspaceRoot}/dev/sum_to.rb"
+            "program": "${workspaceRoot}/dev/chomp.rb"
         },
         {
             "name": "Listen for rdebug-ide",
