@@ -9,7 +9,7 @@
             "type": "Ruby",
             "request": "launch",
             "cwd": "${workspaceRoot}",
-            "program": "${workspaceRoot}/dev/contains_string.rb"
+            "program": "${workspaceRoot}/dev/remove_string.rb"
         },
         {
             "name": "Listen for rdebug-ide",

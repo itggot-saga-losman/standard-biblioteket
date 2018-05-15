@@ -15,7 +15,7 @@
 def remove_string(string, contained)
     i = 0
     output = ""
-    while i < string.length - contained.length + 1
+    while i < string.length - contained.length 
         if string[i, contained.length] == contained
             i += contained.length 
         end
