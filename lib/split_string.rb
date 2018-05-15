@@ -20,12 +20,12 @@ def split_string(string, limit)
         if string[i, limit.length] == limit
             output << stringholder 
             i += limit.length
+            stringholder = ""
         else
             stringholder << string[i]
             i += 1
         end
     end
+    output << stringholder 
     return output
 end
-
-p split_string("a bunch of text", " ") 
