@@ -15,13 +15,13 @@
 def remove_string(string, contained)
     i = 0
     output = ""
-    while i < string.length - contained.length 
+    while i < string.length - contained.length + 1
         if string[i, contained.length] == contained
             i += contained.length 
+        else
+            output << string[i]
+            i += 1
         end
-        output << string[i]
-        i += 1
     end
     return output
 end
-p remove_string("this is a test", " test")
