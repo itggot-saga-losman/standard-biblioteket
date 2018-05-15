@@ -1,7 +1,6 @@
-# Public: Takes an array and object as input and provides a new array as output, where the new array doesn't contain the object.
+# Public: Takes an array as input and provides a new array as output, where the array doesn't contain two of the same objects.
 #
-# string - the string
-# divide - the character that will divide the strings
+# array - the array
 #
 # Examples
 #
@@ -11,11 +10,11 @@
 #   #=> ["bosse", "olof", "kalle"]
 #
 #
-# Returns new array without the object.
+# Returns new array without doublettes.
 def unique(array)
     i = 0
     output = []
-    while i < array.length
+    while i < array.length 
         if output.index(array[i]) == nil
             output << array[i]
         end
@@ -23,5 +22,3 @@ def unique(array)
     end
     return output
 end
-
-p unique(["bosse", "olof", "kalle", "olof"]) 
