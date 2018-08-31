@@ -16,7 +16,7 @@
 def replace_string(string, string2, string3)
     i = 0
     output = ""
-    while i < string.length - string2.length + 1
+    while i < string.length
         if string[i, string2.length] == string2
             output << string3 
             i += string2.length
@@ -28,3 +28,5 @@ def replace_string(string, string2, string3)
     end
     return output
 end
+
+puts replace_string("hej hejsan tjena", "hejsan", "tjena")
