@@ -1,0 +1,20 @@
+.calculator 
+    form action="calculate" method="POST"
+        input name="operand1" type="number" step="any"
+        select name="operator" 
+            option value="+" = "+"
+            option value="-" = "-"
+            option value="*" = "*"
+            option value="/" = "/"
+        input name="operand2" type="number" step="any"
+        input type="submit" value="calculate"
+.history
+
+    h3 History
+    form action="clear" method="post"
+        button Clear History
+
+
+    -session[:history].each do |element|
+    
+        p = element

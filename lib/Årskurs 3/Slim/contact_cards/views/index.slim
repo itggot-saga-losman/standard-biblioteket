@@ -1,0 +1,14 @@
+.wrapper
+    header
+        h1 EVIL CORP
+    main
+        -for info in :infos do
+            article.user-card
+                .profile-img
+                    img alt="#{info[1]}" src="#{"img/"+info[0]+".jpg"}"
+                .info
+                    label.name = info[1]
+                    label.email = info[2]
+                    label.tel = info[3]
+                    label.department = info[4]
+                

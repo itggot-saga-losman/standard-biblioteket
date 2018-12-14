@@ -1,0 +1,14 @@
+h1 Hello World
+
+- if session[:username] != nil
+    p = session[:username]
+- else 
+    p = "You are not logged in"
+
+form action="/test" method="POST"
+    input type="text" placeholder="Type username" name="username"
+    input type="password" placeholder="Password" name="password"
+    input type="submit" value="Log in"
+
+form action="/test" method="POST"
+    input type="submit" value="Log out"
